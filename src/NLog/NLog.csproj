@@ -33,19 +33,7 @@ For ASP.NET Core, check: https://www.nuget.org/packages/NLog.Web.AspNetCore
     
     <PackageReleaseNotes>
 
-## Fixes 
 
-- JsonSerializer - Generate valid Json when hitting the MaxRecursionLimit (@snakefoot)
-- Fixup for NLog.WindowsEventLog package: https://www.nuget.org/packages/NLog.WindowsEventLog
-
-## Enhancements
-
-- FileTarget - Improve support for Linux FileSystem without BirthTime (@snakefoot)
-
-## Performance
-
-- LogEventInfo - HasProperties should allocate PropertiesDicitonary when needed (@snakefoot)
-- JsonLayout - Reduce allocations when needing to escape string (44% time improvement) (@snakefoot)
 
 Full changelog: https://github.com/NLog/NLog/blob/master/CHANGELOG.md
 
